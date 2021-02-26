@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-clean-architeture",
+  "version": "1.0.0",
+  "description": "Clean Architecture Project in NodeJS",
+  "main": "handler.js",
+  "author": "Jhessica Kanda",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fastify": "^3.12.0",
+    "mongoose": "^5.11.18"
+  }
+}

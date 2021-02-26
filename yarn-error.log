@@ -1,0 +1,31 @@
+Arguments: 
+  /usr/local/Cellar/node@12/12.18.0/bin/node /usr/local/Cellar/yarn/1.22.4/libexec/bin/yarn.js add -D @types/node
+
+PATH: 
+  /usr/local/opt/node@12/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/jhessikanda/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/opt/node@12/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/jhessikanda/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/jhessikanda/Projects/nodejs-clean-architecture/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.4/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
